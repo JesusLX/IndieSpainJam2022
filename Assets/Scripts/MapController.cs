@@ -3,8 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapController : MonoBehaviour
-{
+public class MapController : MonoBehaviour {
 
     public int height = 0;
     public int width = 0;
@@ -16,6 +15,8 @@ public class MapController : MonoBehaviour
     public Vector2Int ExitPosition;
 
     public ICharacter character;
+    public Color primaryColor;
+    public Color secondaryColor;
 
     public static MapController Instance { get; private set; }
 
@@ -28,7 +29,7 @@ public class MapController : MonoBehaviour
     }
 
     private void Start() {
-       
+
     }
 
     [ContextMenu("Generate Map")]
@@ -37,19 +38,20 @@ public class MapController : MonoBehaviour
         publicMap = new List<Cell>();
         for (int h = 0; h < height; h++) {
             for (int w = 0; w < width; w++) {
-                if(map[h, w] != null) {
+                if (map[h, w] != null) {
                     DestroyImmediate(map[h, w].gameObject);
                 }
                 GameObject tmpCell = Instantiate(cellPrefab, new Vector3(w + offset, h + offset, 0), Quaternion.identity, transform);
-                tmpCell.gameObject.name = "Cell ("+w+","+h+")";
+                tmpCell.gameObject.name = "Cell (" + w + "," + h + ")";
                 map[h, w] = tmpCell.GetComponent<Cell>();
+                map[h, w].visual.color = ((w + h) % 2 == 0) ? primaryColor : secondaryColor;
                 map[h, w].mapPosition = new Vector2Int(w, h);
-                this.TrySetObstacle(h == height - 1,"Upper",map[h, w],IObstacle.Type.UpperWall);
-                this.TrySetObstacle(h == 0,"Botton",map[h, w],IObstacle.Type.BottomWall);
-                this.TrySetObstacle(w == 0,"Left",map[h, w],IObstacle.Type.LeftWall);
-                this.TrySetObstacle(w == width - 1,"Rigth",map[h, w],IObstacle.Type.RigthWall);
-                this.TrySetObstacle(EntrancePosition.y == h && EntrancePosition.x == w,"Entrance",map[h, w],IObstacle.Type.Entrance);
-                this.TrySetObstacle(ExitPosition.y == h && ExitPosition.x == w,"Exit",map[h, w],IObstacle.Type.Exit);
+                this.TrySetObstacle(h == height - 1, "Upper", map[h, w], IObstacle.Type.UpperWall);
+                this.TrySetObstacle(h == 0, "Botton", map[h, w], IObstacle.Type.BottomWall);
+                this.TrySetObstacle(w == 0, "Left", map[h, w], IObstacle.Type.LeftWall);
+                this.TrySetObstacle(w == width - 1, "Rigth", map[h, w], IObstacle.Type.RigthWall);
+                this.TrySetObstacle(EntrancePosition.y == h && EntrancePosition.x == w, "Entrance", map[h, w], IObstacle.Type.Entrance);
+                this.TrySetObstacle(ExitPosition.y == h && ExitPosition.x == w, "Exit", map[h, w], IObstacle.Type.Exit);
                 this.TrySetObstacle(h == height - 1 && w == 0, "UpperLeft", map[h, w], IObstacle.Type.UpperLeftWallCorner);
                 this.TrySetObstacle(h == height - 1 && w == width - 1, "UpperRight", map[h, w], IObstacle.Type.UpperRigthWallCorner);
                 this.TrySetObstacle(h == 0 && w == 0, "BottomLeft", map[h, w], IObstacle.Type.BottomLeftWallCorner);
@@ -72,6 +74,7 @@ public class MapController : MonoBehaviour
     [ContextMenu("Update Map")]
     public void UpdateMap() {
         foreach (Cell cell in publicMap) {
+            cell.visual.color = ((cell.mapPosition.x + cell.mapPosition.y) % 2 == 0) ? primaryColor : secondaryColor;
             cell.SetObstacle(cell.obstacleType);
         }
     }

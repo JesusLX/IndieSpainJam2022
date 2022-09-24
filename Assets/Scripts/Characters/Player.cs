@@ -98,7 +98,8 @@ public class Player : MonoBehaviour, ICharacter {
     }
     public bool Walk(Cell nextCell) {
         bool canWalk = false;
-        if (canWalk = (nextCell.obstacle == null || nextCell.obstacle.IsWalkable())) {
+        if (canWalk = ((nextCell.obstacle == null || nextCell.obstacle.IsWalkable()) && nextCell.OverMeCharacter == null)) {
+            Debug.Log(nextCell);
             pointer.position = nextCell.transform.position;
             SetCurrentCell(nextCell);
             OnActionDone();
@@ -141,9 +142,10 @@ public class Player : MonoBehaviour, ICharacter {
             Vector2Int searchPosition = GetSearchedPostion(direction);
             Cell tmpCell = MapController.Instance.GetCell(searchPosition);
             if (tmpCell != null) {
+                    Debug.Log(tmpCell.obstacle);
                 if (tmpCell.obstacle != null && tmpCell.obstacle.HasAction()) {
                     tmpCell.obstacle.DoAction();
-                } else if (tmpCell.obstacle == null || tmpCell.obstacle.isWalkable) {
+                } else if (tmpCell.obstacle == null || tmpCell.obstacle.IsWalkable()) {
                     Instantiate(mainAttack, tmpCell.transform).GetComponent<BaseAttack>().Init(tmpCell);
                 }
             }
@@ -152,6 +154,9 @@ public class Player : MonoBehaviour, ICharacter {
     }
 
     public void SetCurrentCell(Cell cell) {
+        if (_currentCell != null) {
+            _currentCell.OverMeCharacter = null;
+        }
         _currentCell = cell;
         CurrentCell.OverMeCharacter = this;
         pointer.position = CurrentCell.transform.position;

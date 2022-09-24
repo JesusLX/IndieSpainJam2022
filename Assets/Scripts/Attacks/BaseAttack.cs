@@ -19,6 +19,7 @@ public class BaseAttack : MonoBehaviour, IAttack {
         if(this.turnsToAttack == this.constTurnsToAttack) {
             visual.SetTrigger("PrepareAttackInit");
         } else {
+            Debug.Log("Prepare attack");
             visual.SetTrigger("PrepareAttack");
         }
     }
@@ -39,12 +40,13 @@ public class BaseAttack : MonoBehaviour, IAttack {
 
     public void OnAttackDone() {
         affectedCells.ForEach(c => c.DoDamage(targetType, damage));
-        TurnManager.Instance.EndTurn(invockerType);
         repeats--;
         if(repeats <= 0) {
             TurnManager.Instance.RemoveToTurns(this.invockerType, TryAttack);
             Destroy(gameObject);
-        } 
+        }
+        TurnManager.Instance.EndTurn(invockerType);
+
     }
 
     public void TryAttack() {
@@ -59,4 +61,7 @@ public class BaseAttack : MonoBehaviour, IAttack {
         TryAttack();
     }
 
+    public GameObject GetGameObject() {
+        return this.gameObject;
+    }
 }

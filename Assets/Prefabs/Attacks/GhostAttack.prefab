@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770cd5e898ac1084bae05d79ecb75a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constTurnsToAttack: 1
+  constTurnsToAttack: 0
   constRepeats: 0
   targetType: 0
   invockerType: 1

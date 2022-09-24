@@ -39,10 +39,11 @@ public class TurnManager : MonoBehaviour
     public void AddToTurns(ICharacter.CharacterType character, UnityAction OnTurnChangedAction) {
         OnTurnChanged.AddListener(OnTurnChangedAction);
         if (!actionsPerTurn.ContainsKey(character)) {
-            actionsPerTurn[character] = 1;
+            actionsPerTurn.Add(character, 1);
         } else {
             actionsPerTurn[character]++;
         }
+        actionsThisTurn++;
     }
 
     public void RemoveToTurns(ICharacter character) {
@@ -64,7 +65,7 @@ public class TurnManager : MonoBehaviour
         }
     }
 
-    private ICharacter.CharacterType  SetNextTurn() {
+    private ICharacter.CharacterType SetNextTurn() {
         int turnIndex = actionsPerTurn.Keys.ToList().IndexOf(typeOfTheTurn);
         if(turnIndex == actionsPerTurn.Count-1) {
             turnIndex = 0;

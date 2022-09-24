@@ -23,7 +23,7 @@ public class Cell : MonoBehaviour {
     [ContextMenu("Set Obstacle")]
     public void RefreshObstacle() {
         if (this.hasObstacle()) {
-            DestroyImmediate(this.obstacle.gameObject);
+            DestroyImmediate(this.obstacle.GetGameObject());
             this.obstacle = null;
         }
         if (obstacleType != IObstacle.Type.None)
@@ -33,13 +33,16 @@ public class Cell : MonoBehaviour {
 
     public void SetObstacle(IObstacle.Type obstacleType) {
         if (this.hasObstacle()) {
-            DestroyImmediate(this.obstacle.gameObject);
+            if (this.obstacle.GetGameObject() == obstacle) return;
+            this.gameObject.name = this.gameObject.name.Replace(obstacleType.ToString(),"");
+            DestroyImmediate(this.obstacle.GetGameObject());
             this.obstacle = null;
         }
         this.obstacleType = obstacleType;
         GameObject newObstacle = ObtaclesManager.Instance.GetObstacle(obstacleType);
         if (newObstacle != null) {
             this.obstacle = Instantiate(newObstacle, this.transform).GetComponent<BaseObstacle>();
+            gameObject.name = this.gameObject.name+obstacleType.ToString();
         } else {
             Debug.Log(obstacleType);
         }

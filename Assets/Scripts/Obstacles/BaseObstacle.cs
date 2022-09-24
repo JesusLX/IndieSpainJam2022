@@ -1,28 +1,62 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BaseObstacle : MonoBehaviour, IObstacle
 {
     public IObstacle.Type type;
     public bool isWalkable;
-    public void DoAction() {
+    private bool hasAction;
+    [SerializeField]
+    public IObstacle childClass;
+
+    private void Start() {
+       childClass = GetComponents<IObstacle>().ToList().Find(o => o != this);
+        if (childClass != null) {
+            Debug.Log(childClass);
+        }else {
+            Debug.Log("Sin hijo " + gameObject.name);
+        }
     }
 
-    public IObstacle.Type GetObstacleType() {
+    public virtual void DoAction() {
+        if (childClass != null) {
+            childClass.DoAction();
+        }
+    }
+
+    public virtual IObstacle.Type GetObstacleType() {
+        if (childClass != null) {
+          type = childClass.GetObstacleType();
+        }
         return type;
     }
 
-    public bool HasAction() {
-        return false;
+    public virtual bool HasAction() {
+        if (childClass != null) {
+            hasAction = childClass.HasAction();
+        }
+
+        return hasAction;
     }
 
-    public bool IsWalkable() {
+    public virtual bool IsWalkable() {
+        if (childClass != null) {
+            isWalkable = childClass.IsWalkable();
+        }
         return this.isWalkable;
     }
 
-    public void SetIsWalkable(bool walkable) {
+    public virtual void SetIsWalkable(bool walkable) {
+        if (childClass != null) {
+            childClass.SetIsWalkable(walkable);
+        }
         this.isWalkable = walkable;
     }
 
+    public virtual GameObject GetGameObject() {
+        return this.gameObject;
+    }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
 public interface IAttack {
     List<Cell> affectedCells { get; set; }
@@ -9,4 +10,5 @@ public interface IAttack {
     void OnPrepareAttackDone();
     void Attack();
     void OnAttackDone();
+    GameObject GetGameObject();
 }

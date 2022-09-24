@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ public class Enemy : MonoBehaviour, ICharacter {
     public int _hp = 1;
     public ICharacter.CharacterType _myType = ICharacter.CharacterType.Player;
     public Vector2Int spawnPoint;
+    public List<GameObject> curringAttacks;
 
 
     public Cell CurrentCell { get => _currentCell; }
@@ -22,6 +24,7 @@ public class Enemy : MonoBehaviour, ICharacter {
     public int HP { get => _hp; set => _hp = value; }
 
     void Start() {
+        curringAttacks = new List<GameObject>();
         DoInitPosition();
         StartCoroutine(FollowPointer());
         TurnManager.Instance.AddToTurns(this);
@@ -34,7 +37,8 @@ public class Enemy : MonoBehaviour, ICharacter {
     public void OnTurnChanged() {
         if (TurnManager.Instance.typeOfTheTurn == MyType) {
             Debug.Log("Turno enemigo");
-
+            curringAttacks.RemoveAll(c => c == null);
+           
             TryDoAction();
         }
     }
@@ -94,8 +98,7 @@ public class Enemy : MonoBehaviour, ICharacter {
                     yield return null;
                 }
                 transform.position = pointer.position;
-                if(CanDoActions())
-                    OnActionDone();
+               
             }
             yield return new WaitForSeconds(0.01f);
         }
@@ -104,6 +107,9 @@ public class Enemy : MonoBehaviour, ICharacter {
     
 
     public void SetCurrentCell(Cell cell) {
+        if (_currentCell != null) {
+            _currentCell.OverMeCharacter = null;
+        }
         _currentCell = cell;
         CurrentCell.OverMeCharacter = this;
         pointer.position = CurrentCell.transform.position;
@@ -118,8 +124,10 @@ public class Enemy : MonoBehaviour, ICharacter {
         List<Cell> cells = CheckPosibleCells();
         bool attacks = false;
         foreach (Cell cell in cells) {
-            if (cell.OverMeCharacter != null && cell.OverMeCharacter.MyType != this.MyType) {
-                Instantiate(mainAttack, cell.transform).GetComponent<BaseAttack>().Init(cell);
+            if (this.curringAttacks.Count == 0 && (cell.OverMeCharacter != null && cell.OverMeCharacter.MyType == this.mainAttack.targetType)) {
+                IAttack attack = Instantiate(mainAttack, cell.transform);
+                curringAttacks.Add(attack.GetGameObject());
+                attack.Init(cell);
                 attacks = true;
                 OnActionDone();
                 break;
@@ -131,11 +139,11 @@ public class Enemy : MonoBehaviour, ICharacter {
     }
     public bool TryWalk(Cell nextCell) {
         bool canWalk = false;
-        if (canWalk = (nextCell.obstacle == null || nextCell.obstacle.IsWalkable())) {
+        if (canWalk = ((nextCell.obstacle == null || nextCell.obstacle.IsWalkable()) && nextCell.OverMeCharacter == null)) {
             pointer.position = nextCell.transform.position;
             SetCurrentCell(nextCell);
-            OnActionDone();
         }
+        OnActionDone();
         return canWalk;
     }
     public List<Cell> CheckPosibleCells() {
@@ -144,7 +152,7 @@ public class Enemy : MonoBehaviour, ICharacter {
             Vector2Int searchPosition = GetSearchedPostion(direction);
             Cell tmpCell = MapController.Instance.GetCell(searchPosition);
             if (tmpCell != null) {
-                if (tmpCell.obstacle == null || tmpCell.obstacle.isWalkable) {
+                if (tmpCell.obstacle == null || tmpCell.obstacle.IsWalkable()) {
                     cells.Add(tmpCell);
                 }
             }

@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 292212222063646522}
+  - {fileID: 8470756952638759667}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45,12 +45,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa526acd21f2db428e49340e3148977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedBackground: {fileID: 263352300, guid: 6387bbf3f0370bc4386665a867ecd1fa, type: 3}
-  visual: {fileID: 4436104580888267406}
+  selectedBackground: {fileID: -2069909867, guid: 6387bbf3f0370bc4386665a867ecd1fa, type: 3}
+  visual: {fileID: 2844047854916987351}
   obstacle: {fileID: 0}
   obstacleType: 0
-  position: {x: 0, y: 0}
---- !u!1 &828985881099709203
+  mapPosition: {x: 0, y: 0}
+--- !u!1 &1131981693922353605
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,8 +58,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 292212222063646522}
-  - component: {fileID: 4436104580888267406}
+  - component: {fileID: 8470756952638759667}
+  - component: {fileID: 2844047854916987351}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -67,13 +67,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &292212222063646522
+--- !u!4 &8470756952638759667
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828985881099709203}
+  m_GameObject: {fileID: 1131981693922353605}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -82,13 +82,13 @@ Transform:
   m_Father: {fileID: 2914983116436145577}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4436104580888267406
+--- !u!212 &2844047854916987351
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828985881099709203}
+  m_GameObject: {fileID: 1131981693922353605}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -123,7 +123,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 263352300, guid: 6387bbf3f0370bc4386665a867ecd1fa, type: 3}
+  m_Sprite: {fileID: -2069909867, guid: 6387bbf3f0370bc4386665a867ecd1fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
