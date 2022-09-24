@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,28 +10,40 @@ public class MapController : MonoBehaviour
     public int width = 0;
     public float offset = 0f;
     public GameObject cellPrefab;
-    [SerializeField]
-    public Cell[,] map;
+    public List<Cell> publicMap;
 
-    public Vector2 EntrancePosition;
-    public Vector2 ExitPosition;
+    public Vector2Int EntrancePosition;
+    public Vector2Int ExitPosition;
 
+    public ICharacter character;
 
-    void Start()
-    {
-      
+    public static MapController Instance { get; private set; }
+
+    private void Awake() {
+        if (Instance != null && Instance != this) {
+            Destroy(this);
+        } else {
+            Instance = this;
+        }
     }
+
+    private void Start() {
+       
+    }
+
     [ContextMenu("Generate Map")]
     public void GenerateMap() {
-        map = new Cell[height, width];
+        Cell[,] map = new Cell[height, width];
+        publicMap = new List<Cell>();
         for (int h = 0; h < height; h++) {
             for (int w = 0; w < width; w++) {
                 if(map[h, w] != null) {
                     DestroyImmediate(map[h, w].gameObject);
                 }
                 GameObject tmpCell = Instantiate(cellPrefab, new Vector3(w + offset, h + offset, 0), Quaternion.identity, transform);
+                tmpCell.gameObject.name = "Cell ("+w+","+h+")";
                 map[h, w] = tmpCell.GetComponent<Cell>();
-                map[h, w].position = new Vector2(w, h);
+                map[h, w].mapPosition = new Vector2Int(w, h);
                 this.TrySetObstacle(h == height - 1,"Upper",map[h, w],IObstacle.Type.UpperWall);
                 this.TrySetObstacle(h == 0,"Botton",map[h, w],IObstacle.Type.BottomWall);
                 this.TrySetObstacle(w == 0,"Left",map[h, w],IObstacle.Type.LeftWall);
@@ -43,6 +56,7 @@ public class MapController : MonoBehaviour
                 this.TrySetObstacle(h == 0 && w == width - 1, "BottomRight", map[h, w], IObstacle.Type.BottomRigthWallCorner);
 
                 map[h, w].init(false);
+                publicMap.Add(map[h, w]);
             }
         }
     }
@@ -57,15 +71,11 @@ public class MapController : MonoBehaviour
 
     [ContextMenu("Update Map")]
     public void UpdateMap() {
-        for (int h = 0; h < height; h++) {
-            for (int w = 0; w < width; w++) {
-                map[h, w].SetObstacle(map[h, w].obstacleType);
-            }
+        foreach (Cell cell in publicMap) {
+            cell.SetObstacle(cell.obstacleType);
         }
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
+    internal Cell GetCell(Vector2Int position) {
+        return publicMap.Find(c => c.mapPosition == new Vector2Int(position.x, position.y));
     }
 }

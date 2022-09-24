@@ -3,52 +3,71 @@ using System.Collections;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
-public class Cell : MonoBehaviour
-{
+public class Cell : MonoBehaviour {
     public Sprite selectedBackground;
     public SpriteRenderer visual;
     public BaseObstacle obstacle = null;
     public IObstacle.Type obstacleType = IObstacle.Type.None;
-    public Vector2 position ;
+    public Vector2Int mapPosition;
     private float speed;
     private ObtaclesManager obtaclesManager;
+    private ICharacter _overMeCharacter;
+    public ICharacter OverMeCharacter { get => _overMeCharacter; set => _overMeCharacter = value; }
 
-   
-    public void init(bool animation)
-    {
+    public void init(bool animation) {
         visual.sprite = this.selectedBackground;
-        position = this.gameObject.transform.position;
         if (animation) {
             StartCoroutine(SmoothLerp(3f));
         }
     }
-    public void SetObstacle(IObstacle.Type obstacleType) {
-        this.obstacleType = obstacleType;
+    [ContextMenu("Set Obstacle")]
+    public void RefreshObstacle() {
         if (this.hasObstacle()) {
             DestroyImmediate(this.obstacle.gameObject);
             this.obstacle = null;
         }
-        this.obstacle = Instantiate(ObtaclesManager.Instance.GetObstacle(obstacleType), this.transform).GetComponent<BaseObstacle>();
+        if (obstacleType != IObstacle.Type.None)
+            this.obstacle = Instantiate(ObtaclesManager.Instance.GetObstacle(obstacleType), this.transform).GetComponent<BaseObstacle>();
+    }
+
+
+    public void SetObstacle(IObstacle.Type obstacleType) {
+        if (this.hasObstacle()) {
+            DestroyImmediate(this.obstacle.gameObject);
+            this.obstacle = null;
+        }
+        this.obstacleType = obstacleType;
+        GameObject newObstacle = ObtaclesManager.Instance.GetObstacle(obstacleType);
+        if (newObstacle != null) {
+            this.obstacle = Instantiate(newObstacle, this.transform).GetComponent<BaseObstacle>();
+        } else {
+            Debug.Log(obstacleType);
+        }
     }
 
     public bool hasObstacle() {
         return obstacle != null;
     }
 
-    private IEnumerator SmoothLerp(float time)
-    {
+    private IEnumerator SmoothLerp(float time) {
         Vector3 startingPos = transform.position + Vector3.up * 30;
         Vector3 endPos = transform.position;
 
         float elapsedTime = 0;
 
-        while (elapsedTime < time)
-        {
+        while (elapsedTime < time) {
             visual.gameObject.transform.position = Vector3.Lerp(startingPos, endPos, (elapsedTime / time));
             elapsedTime += Time.deltaTime;
             yield return null;
         }
         visual.gameObject.transform.position = transform.position;
 
+    }
+
+
+    internal void DoDamage(ICharacter.CharacterType targetType, int damage) {
+        if (OverMeCharacter != null && OverMeCharacter.MyType == targetType) {
+            OverMeCharacter.GetDamage(damage);
+        }
     }
 }
