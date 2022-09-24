@@ -2,7 +2,7 @@
 
 public interface IObstacle {
     enum Type {
-        None, UpperWall, BottomWall, LeftWall, RigthWall, Exit, Entrance, UpperLeftWallCorner, BottomLeftWallCorner, UpperRigthWallCorner, BottomRigthWallCorner, InnerWall
+        None, UpperWall, BottomWall, LeftWall, RigthWall, Exit, Entrance, UpperLeftWallCorner, BottomLeftWallCorner, UpperRigthWallCorner, BottomRigthWallCorner, InnerWall, Void
     }
     Type GetObstacleType();
     bool IsWalkable();
