@@ -39,7 +39,7 @@ public class Player : MonoBehaviour, ICharacter {
     }
 
     void Update() {
-        if (this.CanDoActions() && this.actionCDRemaining <= 0) {
+        if (turns > 0 && this.CanDoActions() && this.actionCDRemaining <= 0) {
             if (Input.GetAxisRaw("Vertical") == 1) {
                 TryWalk(ICharacter.Directions.Up);
             }else
@@ -129,8 +129,12 @@ public class Player : MonoBehaviour, ICharacter {
     public void OnActionDone() {
         turns--;
         actionCDRemaining = actionCD;
+        if (turns == 0) {
+            TryDie();
+        } else {
         OnTurnPassed?.Invoke();
         TurnManager.Instance.EndTurn(MyType);
+        }
     }
 
     [ContextMenu("DoInitPosition")]

@@ -13,9 +13,10 @@ public class Enemy : MonoBehaviour, ICharacter {
     public float actionCDRemaining = 0;
     public BaseAttack mainAttack;
     public int _hp = 1;
-    public ICharacter.CharacterType _myType = ICharacter.CharacterType.Player;
+    public ICharacter.CharacterType _myType = ICharacter.CharacterType.Enemy;
     public Vector2Int spawnPoint;
     public List<GameObject> curringAttacks;
+    public bool autoplay = false;
 
 
     public Cell CurrentCell { get => _currentCell; }
@@ -28,11 +29,26 @@ public class Enemy : MonoBehaviour, ICharacter {
         DoInitPosition();
         StartCoroutine(FollowPointer());
         TurnManager.Instance.AddToTurns(this);
+        if (TurnManager.Instance.typeOfTheTurn == this.MyType) {
+            TryDoAction();
+        }
     }
+    void Update() {
+        if (autoplay) {
 
+            if (this.CanDoActions() && this.actionCDRemaining <= 0) {
+                TryDoAction();
+            }
+
+
+            if (actionCDRemaining > 0) {
+                actionCDRemaining -= Time.deltaTime;
+            }
+        }
+    }
     public void GetDamage(int damage) {
         HP -= damage;
-        if(HP <= 0) {
+        if (HP <= 0) {
             Die();
         }
     }
@@ -43,10 +59,12 @@ public class Enemy : MonoBehaviour, ICharacter {
     }
 
     public void OnTurnChanged() {
-        if (TurnManager.Instance.typeOfTheTurn == MyType) {
-            curringAttacks.RemoveAll(c => c == null);
-           
-            TryDoAction();
+        if (!autoplay || (this.CanDoActions() && this.actionCDRemaining <= 0)) {
+            if (TurnManager.Instance.typeOfTheTurn == MyType) {
+                curringAttacks.RemoveAll(c => c == null);
+
+                TryDoAction();
+            }
         }
     }
 
@@ -105,13 +123,13 @@ public class Enemy : MonoBehaviour, ICharacter {
                     yield return null;
                 }
                 transform.position = pointer.position;
-               
+
             }
             yield return new WaitForSeconds(0.01f);
         }
     }
 
-    
+
 
     public void SetCurrentCell(Cell cell) {
         if (_currentCell != null) {
@@ -122,7 +140,7 @@ public class Enemy : MonoBehaviour, ICharacter {
         pointer.position = CurrentCell.transform.position;
 
     }
-   
+
     public void DoInitPosition() {
         SetCurrentCell(MapController.Instance.GetCell(new Vector2Int(spawnPoint.x, spawnPoint.y)));
         //transform.position = currentCell.transform.position;

@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    internal void NextLevel() {
+    public void NextLevel() {
         SceneManager.LoadScene(nextLevel);
 
     }
