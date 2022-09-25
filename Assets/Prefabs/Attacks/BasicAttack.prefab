@@ -48,8 +48,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   constTurnsToAttack: 0
   constRepeats: 0
-  targetType: 0
-  invockerType: 1
+  targetType: 1
+  invockerType: 0
   damage: 1
   visual: {fileID: 6464041483416403287}
 --- !u!95 &6464041483416403287

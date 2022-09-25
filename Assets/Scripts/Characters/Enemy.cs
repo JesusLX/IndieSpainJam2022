@@ -32,6 +32,13 @@ public class Enemy : MonoBehaviour, ICharacter {
 
     public void GetDamage(int damage) {
         HP -= damage;
+        if(HP <= 0) {
+            Die();
+        }
+    }
+    public void Die() {
+        TurnManager.Instance.RemoveToTurns(this);
+        Destroy(this.gameObject.transform.parent);
     }
 
     public void OnTurnChanged() {
