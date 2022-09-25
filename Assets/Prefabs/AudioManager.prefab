@@ -45,9 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Background Loop
+  - name: BackgroundLoop
     clip: {fileID: 8300000, guid: 5e918831a4a292d4181d354879651f47, type: 3}
-    volume: 0.143
+    volume: 1
     pitch: 0
     loop: 1
     source: {fileID: 0}
