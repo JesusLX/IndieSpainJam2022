@@ -54,6 +54,9 @@ public class TurnManager : MonoBehaviour
         OnTurnChanged.RemoveListener(OnTurnChangedAction);
         if (actionsPerTurn.ContainsKey(character)) {
             actionsPerTurn[character]--;
+            if (actionsPerTurn[character] == 0) {
+                actionsPerTurn.Remove(character);
+            }
         }
     }
 

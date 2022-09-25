@@ -16,4 +16,5 @@ public interface ICharacter {
     public bool Walk(Cell nextCell);
 
     public void SetCurrentCell(Cell cell);
+    void Die();
 }

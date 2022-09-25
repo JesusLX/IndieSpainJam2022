@@ -9,10 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1947013092477143705}
-  - component: {fileID: 1947013092477143704}
-  - component: {fileID: 2000357278043833214}
+  - component: {fileID: 2843548393532962530}
   m_Layer: 0
-  m_Name: Player
+  m_Name: NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947013092477143707}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.113894, y: 0.9259319, z: 0.1354872}
+  m_LocalPosition: {x: -1.113894, y: 0.92593193, z: 0.13548717}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -34,7 +33,7 @@ Transform:
   m_Father: {fileID: 3236638873971650788}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1947013092477143704
+--- !u!114 &2843548393532962530
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,48 +42,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1947013092477143707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c7645c2f6d04be45a54d4aa1409437f, type: 3}
+  m_Script: {fileID: 11500000, guid: f67f13d0699ec1341b667e7096090f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _currentCell: {fileID: 0}
   pointer: {fileID: 1947013093766960750}
-  speed: 0.2
+  speed: 5
   actionCD: 0.25
   actionCDRemaining: 0
-  mainAttack: {fileID: 3036376885294103291, guid: 6cb48919f8fbae846984143f79d7052a, type: 3}
+  mainAttack: {fileID: 3036376885294103291, guid: ca4df8c76046db8408cd906c50153c81, type: 3}
   _hp: 1
-  _myType: 0
-  turns: 100
-  OnItemAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  OnItemRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTurnPassed:
-    m_PersistentCalls:
-      m_Calls: []
-  animator: {fileID: 0}
---- !u!95 &2000357278043833214
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947013092477143707}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 897b0530ece6dac46ac81145cb20f0dd, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  _myType: 1
+  spawnPoint: {x: 1, y: 4}
+  curringAttacks: []
 --- !u!1 &1947013093208743610
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,12 +128,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 71
-  m_Sprite: {fileID: 255252394, guid: 6387bbf3f0370bc4386665a867ecd1fa, type: 3}
+  m_Sprite: {fileID: 605440105, guid: 6387bbf3f0370bc4386665a867ecd1fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.9375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -210,7 +180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3236638873971650788}
   m_Layer: 0
-  m_Name: FullPlayer
+  m_Name: FullEnemy 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,8 +193,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6326530914647342021}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.925447, y: 5.5245237, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

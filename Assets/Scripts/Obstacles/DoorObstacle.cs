@@ -13,9 +13,8 @@ public class DoorObstacle : MonoBehaviour, IObstacle {
     private bool hasAction;
     public IItem.Type activator;
     public IObstacle.Type type;
-    public Animator animator;
 
-    public string nextScene;
+  
 
 
     private void Start() {
@@ -31,13 +30,11 @@ public class DoorObstacle : MonoBehaviour, IObstacle {
     public void DoAction() {
         if (FindObjectOfType<Player>().SubstractItem(this.activator)) {
             OnActivate(true);
-            animator.SetTrigger("FadeOut");
+            FindObjectOfType<FadeController>().FadeOut();
         }
     }
 
-    public void OnActionDonde() {
-        SceneManager.LoadScene(nextScene);
-    }
+  
 
     public void OnActivate(bool activated) {
         if (activated) {

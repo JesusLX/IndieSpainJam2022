@@ -20,6 +20,8 @@ public class Player : MonoBehaviour, ICharacter {
     public UnityEvent<IItem.Type> OnItemRemoved;
     public UnityEvent OnTurnPassed;
 
+    public Animator animator;
+
 
     public Cell CurrentCell { get => _currentCell; }
 
@@ -31,6 +33,9 @@ public class Player : MonoBehaviour, ICharacter {
         StartCoroutine(FollowPointer());
         DoInitPosition();
         TurnManager.Instance.AddToTurns(this);
+        if(animator == null) {
+            animator = GetComponent<Animator>();
+        }
     }
 
     void Update() {
@@ -60,6 +65,9 @@ public class Player : MonoBehaviour, ICharacter {
 
     public void GetDamage(int damage) {
         HP -= damage;
+        if (HP <= 0) {
+            TryDie();
+        }
     }
 
     public void OnTurnChanged() {
@@ -195,5 +203,13 @@ public class Player : MonoBehaviour, ICharacter {
         } else {
            return 0;
         }
+    }
+
+    public void TryDie() {
+        animator.Play("Die");
+    }
+
+    public void Die() {
+        GameManager.Instance.Reset();
     }
 }

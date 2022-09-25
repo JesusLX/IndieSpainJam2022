@@ -12,6 +12,7 @@ public class Cell : MonoBehaviour {
     private float speed;
     private ObtaclesManager obtaclesManager;
     private ICharacter _overMeCharacter;
+    public Animator animator;
     public ICharacter OverMeCharacter { get => _overMeCharacter; set => _overMeCharacter = value; }
 
     public void init(bool animation) {
@@ -71,6 +72,7 @@ public class Cell : MonoBehaviour {
     internal void DoDamage(ICharacter.CharacterType targetType, int damage) {
         if (OverMeCharacter != null && OverMeCharacter.MyType == targetType) {
             OverMeCharacter.GetDamage(damage);
+            this.animator.Play("Damage");
         }
     }
 }
