@@ -19,7 +19,8 @@ public class UIManager : MonoBehaviour
     }
 
     public void turnMusicOn() {
-        AudioManager.Instance.ChangeAllVolumes(0.2f);
+        AudioManager.Instance.ChangeAllVolumes(1f);
+        AudioManager.Instance.ChangeVolumen("Theme",.3f);
         AudioOnButton.SetActive(true);
         AudioOffButton.SetActive(false);
     }
