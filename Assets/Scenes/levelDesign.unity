@@ -241,6 +241,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &2346059
 Transform:
   m_ObjectHideFlags: 0
@@ -291,6 +292,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &2394012
 Transform:
   m_ObjectHideFlags: 0
@@ -425,6 +427,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &5529575
 Transform:
   m_ObjectHideFlags: 0
@@ -559,6 +562,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &10493749
 Transform:
   m_ObjectHideFlags: 0
@@ -861,6 +865,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &19049994
 Transform:
   m_ObjectHideFlags: 0
@@ -911,6 +916,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &19297024
 Transform:
   m_ObjectHideFlags: 0
@@ -1045,6 +1051,7 @@ MonoBehaviour:
   obstacle: {fileID: 872665999}
   obstacleType: 1
   mapPosition: {x: 18, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &21919714
 Transform:
   m_ObjectHideFlags: 0
@@ -1348,6 +1355,7 @@ MonoBehaviour:
   obstacle: {fileID: 809266515}
   obstacleType: 4
   mapPosition: {x: 21, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &36147363
 Transform:
   m_ObjectHideFlags: 0
@@ -1567,6 +1575,7 @@ MonoBehaviour:
   obstacle: {fileID: 188101195}
   obstacleType: 4
   mapPosition: {x: 21, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &56487238
 Transform:
   m_ObjectHideFlags: 0
@@ -1618,6 +1627,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &56979041
 Transform:
   m_ObjectHideFlags: 0
@@ -1752,6 +1762,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &60602531
 Transform:
   m_ObjectHideFlags: 0
@@ -2101,6 +2112,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &74701467
 Transform:
   m_ObjectHideFlags: 0
@@ -2534,6 +2546,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &90562130
 Transform:
   m_ObjectHideFlags: 0
@@ -2584,6 +2597,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &93554072
 Transform:
   m_ObjectHideFlags: 0
@@ -2718,6 +2732,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &95567073
 Transform:
   m_ObjectHideFlags: 0
@@ -2852,6 +2867,7 @@ MonoBehaviour:
   obstacle: {fileID: 424154687}
   obstacleType: 2
   mapPosition: {x: 3, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &101068634
 Transform:
   m_ObjectHideFlags: 0
@@ -3034,6 +3050,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &116486775
 Transform:
   m_ObjectHideFlags: 0
@@ -3084,6 +3101,7 @@ MonoBehaviour:
   obstacle: {fileID: 1153228333}
   obstacleType: 2
   mapPosition: {x: 8, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &124777727
 Transform:
   m_ObjectHideFlags: 0
@@ -3135,6 +3153,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &126638638
 Transform:
   m_ObjectHideFlags: 0
@@ -3232,6 +3251,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &132687908
 Transform:
   m_ObjectHideFlags: 0
@@ -3581,6 +3601,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &147292585
 Transform:
   m_ObjectHideFlags: 0
@@ -3631,6 +3652,7 @@ MonoBehaviour:
   obstacle: {fileID: 1471129276}
   obstacleType: 3
   mapPosition: {x: 0, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &154687319
 Transform:
   m_ObjectHideFlags: 0
@@ -3682,6 +3704,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &156123925
 Transform:
   m_ObjectHideFlags: 0
@@ -3816,6 +3839,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &163504405
 Transform:
   m_ObjectHideFlags: 0
@@ -3866,6 +3890,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &167186401
 Transform:
   m_ObjectHideFlags: 0
@@ -3916,6 +3941,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &169638226
 Transform:
   m_ObjectHideFlags: 0
@@ -3966,6 +3992,7 @@ MonoBehaviour:
   obstacle: {fileID: 1270067870}
   obstacleType: 9
   mapPosition: {x: 21, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &170156549
 Transform:
   m_ObjectHideFlags: 0
@@ -4017,6 +4044,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &171904454
 Transform:
   m_ObjectHideFlags: 0
@@ -4067,6 +4095,7 @@ MonoBehaviour:
   obstacle: {fileID: 1233970721}
   obstacleType: 1
   mapPosition: {x: 10, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &185402276
 Transform:
   m_ObjectHideFlags: 0
@@ -4118,6 +4147,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &187210942
 Transform:
   m_ObjectHideFlags: 0
@@ -4215,6 +4245,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &190431022
 Transform:
   m_ObjectHideFlags: 0
@@ -4433,6 +4464,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &196230247
 Transform:
   m_ObjectHideFlags: 0
@@ -4483,6 +4515,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &197766121
 Transform:
   m_ObjectHideFlags: 0
@@ -4533,6 +4566,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &199012416
 Transform:
   m_ObjectHideFlags: 0
@@ -4882,6 +4916,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &220738928
 Transform:
   m_ObjectHideFlags: 0
@@ -5118,6 +5153,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &224568033
 Transform:
   m_ObjectHideFlags: 0
@@ -5336,6 +5372,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &227626000
 Transform:
   m_ObjectHideFlags: 0
@@ -5470,6 +5507,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &230994115
 Transform:
   m_ObjectHideFlags: 0
@@ -5604,6 +5642,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &231730871
 Transform:
   m_ObjectHideFlags: 0
@@ -5654,6 +5693,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &232349982
 Transform:
   m_ObjectHideFlags: 0
@@ -5751,6 +5791,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &233542926
 Transform:
   m_ObjectHideFlags: 0
@@ -5885,6 +5926,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &242220632
 Transform:
   m_ObjectHideFlags: 0
@@ -6103,6 +6145,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &245410122
 Transform:
   m_ObjectHideFlags: 0
@@ -6321,6 +6364,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &251142549
 Transform:
   m_ObjectHideFlags: 0
@@ -6371,6 +6415,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &251828656
 Transform:
   m_ObjectHideFlags: 0
@@ -6421,6 +6466,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &271035901
 Transform:
   m_ObjectHideFlags: 0
@@ -6639,6 +6685,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &278478049
 Transform:
   m_ObjectHideFlags: 0
@@ -6689,6 +6736,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &278895167
 Transform:
   m_ObjectHideFlags: 0
@@ -7243,6 +7291,7 @@ MonoBehaviour:
   obstacle: {fileID: 586185837}
   obstacleType: 3
   mapPosition: {x: 0, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &294543381
 Transform:
   m_ObjectHideFlags: 0
@@ -7294,6 +7343,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &296719359
 Transform:
   m_ObjectHideFlags: 0
@@ -7428,6 +7478,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &301646158
 Transform:
   m_ObjectHideFlags: 0
@@ -7559,6 +7610,7 @@ MonoBehaviour:
   obstacle: {fileID: 2122358871}
   obstacleType: 4
   mapPosition: {x: 21, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &304045374
 Transform:
   m_ObjectHideFlags: 0
@@ -8366,6 +8418,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &322099248
 Transform:
   m_ObjectHideFlags: 0
@@ -8500,6 +8553,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &322894990
 Transform:
   m_ObjectHideFlags: 0
@@ -8597,6 +8651,7 @@ MonoBehaviour:
   obstacle: {fileID: 812076616}
   obstacleType: 2
   mapPosition: {x: 4, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &324499303
 Transform:
   m_ObjectHideFlags: 0
@@ -8648,6 +8703,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &327218046
 Transform:
   m_ObjectHideFlags: 0
@@ -8782,6 +8838,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &335638806
 Transform:
   m_ObjectHideFlags: 0
@@ -8916,6 +8973,7 @@ MonoBehaviour:
   obstacle: {fileID: 475851472}
   obstacleType: 3
   mapPosition: {x: 0, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &339648013
 Transform:
   m_ObjectHideFlags: 0
@@ -9098,6 +9156,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &359160455
 Transform:
   m_ObjectHideFlags: 0
@@ -9232,6 +9291,7 @@ MonoBehaviour:
   obstacle: {fileID: 1574363374}
   obstacleType: 1
   mapPosition: {x: 2, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &372886359
 Transform:
   m_ObjectHideFlags: 0
@@ -9451,6 +9511,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &377291716
 Transform:
   m_ObjectHideFlags: 0
@@ -9669,6 +9730,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &393146275
 Transform:
   m_ObjectHideFlags: 0
@@ -9803,6 +9865,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &398391016
 Transform:
   m_ObjectHideFlags: 0
@@ -9937,6 +10000,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &401999722
 Transform:
   m_ObjectHideFlags: 0
@@ -10071,6 +10135,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &411646348
 Transform:
   m_ObjectHideFlags: 0
@@ -10457,6 +10522,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &421614297
 Transform:
   m_ObjectHideFlags: 0
@@ -10507,6 +10573,7 @@ MonoBehaviour:
   obstacle: {fileID: 1929799611}
   obstacleType: 2
   mapPosition: {x: 1, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &422950654
 Transform:
   m_ObjectHideFlags: 0
@@ -10558,6 +10625,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &422976828
 Transform:
   m_ObjectHideFlags: 0
@@ -10907,6 +10975,7 @@ MonoBehaviour:
   obstacle: {fileID: 1755719226}
   obstacleType: 2
   mapPosition: {x: 6, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &432777294
 Transform:
   m_ObjectHideFlags: 0
@@ -11126,6 +11195,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &441236104
 Transform:
   m_ObjectHideFlags: 0
@@ -11344,6 +11414,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &445701265
 Transform:
   m_ObjectHideFlags: 0
@@ -11562,6 +11633,7 @@ MonoBehaviour:
   obstacle: {fileID: 1296218260}
   obstacleType: 2
   mapPosition: {x: 11, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &450484432
 Transform:
   m_ObjectHideFlags: 0
@@ -11697,6 +11769,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &462254279
 Transform:
   m_ObjectHideFlags: 0
@@ -11747,6 +11820,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &464897104
 Transform:
   m_ObjectHideFlags: 0
@@ -12180,6 +12254,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &480157509
 Transform:
   m_ObjectHideFlags: 0
@@ -12398,6 +12473,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &482047578
 Transform:
   m_ObjectHideFlags: 0
@@ -12448,6 +12524,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &483491640
 Transform:
   m_ObjectHideFlags: 0
@@ -12582,6 +12659,7 @@ MonoBehaviour:
   obstacle: {fileID: 1604726849}
   obstacleType: 2
   mapPosition: {x: 2, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &491548773
 Transform:
   m_ObjectHideFlags: 0
@@ -12885,6 +12963,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &499901508
 Transform:
   m_ObjectHideFlags: 0
@@ -13019,6 +13098,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &504040715
 Transform:
   m_ObjectHideFlags: 0
@@ -13153,6 +13233,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &511653881
 Transform:
   m_ObjectHideFlags: 0
@@ -13203,6 +13284,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &512466237
 Transform:
   m_ObjectHideFlags: 0
@@ -13552,6 +13634,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &536589850
 Transform:
   m_ObjectHideFlags: 0
@@ -13686,6 +13769,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &541114498
 Transform:
   m_ObjectHideFlags: 0
@@ -13783,6 +13867,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &546022666
 Transform:
   m_ObjectHideFlags: 0
@@ -13833,6 +13918,7 @@ MonoBehaviour:
   obstacle: {fileID: 1597526409}
   obstacleType: 3
   mapPosition: {x: 0, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &549294209
 Transform:
   m_ObjectHideFlags: 0
@@ -13884,6 +13970,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &551351248
 Transform:
   m_ObjectHideFlags: 0
@@ -14018,6 +14105,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &551716220
 Transform:
   m_ObjectHideFlags: 0
@@ -14236,6 +14324,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &555688020
 Transform:
   m_ObjectHideFlags: 0
@@ -14286,6 +14375,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &556817918
 Transform:
   m_ObjectHideFlags: 0
@@ -14336,6 +14426,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &559609320
 Transform:
   m_ObjectHideFlags: 0
@@ -14386,6 +14477,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &559784621
 Transform:
   m_ObjectHideFlags: 0
@@ -14688,6 +14780,7 @@ MonoBehaviour:
   obstacle: {fileID: 1057449632}
   obstacleType: 3
   mapPosition: {x: 0, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &569384651
 Transform:
   m_ObjectHideFlags: 0
@@ -14823,6 +14916,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &579189558
 Transform:
   m_ObjectHideFlags: 0
@@ -15684,6 +15778,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &594435412
 Transform:
   m_ObjectHideFlags: 0
@@ -15734,6 +15829,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &594840405
 Transform:
   m_ObjectHideFlags: 0
@@ -15784,6 +15880,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &595472018
 Transform:
   m_ObjectHideFlags: 0
@@ -15834,6 +15931,7 @@ MonoBehaviour:
   obstacle: {fileID: 1109525822}
   obstacleType: 1
   mapPosition: {x: 7, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &597670485
 Transform:
   m_ObjectHideFlags: 0
@@ -15969,6 +16067,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &603490167
 Transform:
   m_ObjectHideFlags: 0
@@ -16103,6 +16202,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &606152785
 Transform:
   m_ObjectHideFlags: 0
@@ -16153,6 +16253,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &608616485
 Transform:
   m_ObjectHideFlags: 0
@@ -16455,6 +16556,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &618451380
 Transform:
   m_ObjectHideFlags: 0
@@ -16505,6 +16607,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &620574232
 Transform:
   m_ObjectHideFlags: 0
@@ -16602,6 +16705,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &621097193
 Transform:
   m_ObjectHideFlags: 0
@@ -16736,6 +16840,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &624723345
 Transform:
   m_ObjectHideFlags: 0
@@ -16786,6 +16891,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &626115845
 Transform:
   m_ObjectHideFlags: 0
@@ -17350,6 +17456,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &646176363
 Transform:
   m_ObjectHideFlags: 0
@@ -17484,6 +17591,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &649462915
 Transform:
   m_ObjectHideFlags: 0
@@ -17786,6 +17894,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &659003009
 Transform:
   m_ObjectHideFlags: 0
@@ -17836,6 +17945,7 @@ MonoBehaviour:
   obstacle: {fileID: 2032761858}
   obstacleType: 2
   mapPosition: {x: 18, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &660336506
 Transform:
   m_ObjectHideFlags: 0
@@ -17887,6 +17997,7 @@ MonoBehaviour:
   obstacle: {fileID: 1091827459}
   obstacleType: 2
   mapPosition: {x: 19, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &660354065
 Transform:
   m_ObjectHideFlags: 0
@@ -17938,6 +18049,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &660881699
 Transform:
   m_ObjectHideFlags: 0
@@ -18072,6 +18184,7 @@ MonoBehaviour:
   obstacle: {fileID: 1937073982}
   obstacleType: 3
   mapPosition: {x: 0, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &664850912
 Transform:
   m_ObjectHideFlags: 0
@@ -18207,6 +18320,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &675031972
 Transform:
   m_ObjectHideFlags: 0
@@ -18677,6 +18791,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &691166958
 Transform:
   m_ObjectHideFlags: 0
@@ -18811,6 +18926,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &704116797
 Transform:
   m_ObjectHideFlags: 0
@@ -18945,6 +19061,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &708889311
 Transform:
   m_ObjectHideFlags: 0
@@ -18995,6 +19112,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &711526527
 Transform:
   m_ObjectHideFlags: 0
@@ -19045,6 +19163,7 @@ MonoBehaviour:
   obstacle: {fileID: 1793172805}
   obstacleType: 2
   mapPosition: {x: 12, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &711910177
 Transform:
   m_ObjectHideFlags: 0
@@ -19180,6 +19299,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &714392293
 Transform:
   m_ObjectHideFlags: 0
@@ -19482,6 +19602,7 @@ MonoBehaviour:
   obstacle: {fileID: 2040437387}
   obstacleType: 4
   mapPosition: {x: 21, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &719757498
 Transform:
   m_ObjectHideFlags: 0
@@ -19533,6 +19654,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &719793363
 Transform:
   m_ObjectHideFlags: 0
@@ -19667,6 +19789,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &725305521
 Transform:
   m_ObjectHideFlags: 0
@@ -19811,6 +19934,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &733966477
 Transform:
   m_ObjectHideFlags: 0
@@ -19861,6 +19985,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &736157200
 Transform:
   m_ObjectHideFlags: 0
@@ -19911,6 +20036,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &737610559
 Transform:
   m_ObjectHideFlags: 0
@@ -20045,6 +20171,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &740393280
 Transform:
   m_ObjectHideFlags: 0
@@ -20179,6 +20306,7 @@ MonoBehaviour:
   obstacle: {fileID: 1850339141}
   obstacleType: 3
   mapPosition: {x: 0, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &746322921
 Transform:
   m_ObjectHideFlags: 0
@@ -20309,8 +20437,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a839e6d3f51013143a0e2cde83896cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 6
+  ActiveVisual: {fileID: 0}
+  DeactiveVisual: {fileID: 0}
+  activated: 0
+  activatedWalkable: 0
+  deactivatedWalkable: 0
   isWalkable: 1
+  activator: 0
+  type: 6
 --- !u!4 &750504333
 Transform:
   m_ObjectHideFlags: 0
@@ -20408,6 +20542,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &754676408
 Transform:
   m_ObjectHideFlags: 0
@@ -20458,6 +20593,7 @@ MonoBehaviour:
   obstacle: {fileID: 894802324}
   obstacleType: 1
   mapPosition: {x: 19, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &755191486
 Transform:
   m_ObjectHideFlags: 0
@@ -20509,6 +20645,7 @@ MonoBehaviour:
   obstacle: {fileID: 70148255}
   obstacleType: 1
   mapPosition: {x: 4, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &755429172
 Transform:
   m_ObjectHideFlags: 0
@@ -20644,6 +20781,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &762870694
 Transform:
   m_ObjectHideFlags: 0
@@ -20946,6 +21084,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &772379760
 Transform:
   m_ObjectHideFlags: 0
@@ -20996,6 +21135,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &774361365
 Transform:
   m_ObjectHideFlags: 0
@@ -21130,6 +21270,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &778008126
 Transform:
   m_ObjectHideFlags: 0
@@ -21684,6 +21825,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &793992443
 Transform:
   m_ObjectHideFlags: 0
@@ -22715,6 +22857,7 @@ MonoBehaviour:
   obstacle: {fileID: 1981408671}
   obstacleType: 1
   mapPosition: {x: 15, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &822242858
 Transform:
   m_ObjectHideFlags: 0
@@ -22766,6 +22909,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &823013282
 Transform:
   m_ObjectHideFlags: 0
@@ -22900,6 +23044,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &825253536
 Transform:
   m_ObjectHideFlags: 0
@@ -23118,6 +23263,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &832809024
 Transform:
   m_ObjectHideFlags: 0
@@ -23168,6 +23314,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &834248305
 Transform:
   m_ObjectHideFlags: 0
@@ -23218,6 +23365,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &847728410
 Transform:
   m_ObjectHideFlags: 0
@@ -23352,6 +23500,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &855467426
 Transform:
   m_ObjectHideFlags: 0
@@ -23402,6 +23551,7 @@ MonoBehaviour:
   obstacle: {fileID: 207699182}
   obstacleType: 1
   mapPosition: {x: 13, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &858765125
 Transform:
   m_ObjectHideFlags: 0
@@ -23453,6 +23603,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &859000737
 Transform:
   m_ObjectHideFlags: 0
@@ -23503,6 +23654,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &860525421
 Transform:
   m_ObjectHideFlags: 0
@@ -23553,6 +23705,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &863819061
 Transform:
   m_ObjectHideFlags: 0
@@ -23687,6 +23840,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &865343024
 Transform:
   m_ObjectHideFlags: 0
@@ -23737,6 +23891,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &865828558
 Transform:
   m_ObjectHideFlags: 0
@@ -24170,6 +24325,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &875801786
 Transform:
   m_ObjectHideFlags: 0
@@ -24220,6 +24376,7 @@ MonoBehaviour:
   obstacle: {fileID: 1033118194}
   obstacleType: 4
   mapPosition: {x: 21, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &876137887
 Transform:
   m_ObjectHideFlags: 0
@@ -24355,6 +24512,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &880247903
 Transform:
   m_ObjectHideFlags: 0
@@ -24489,6 +24647,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &882682099
 Transform:
   m_ObjectHideFlags: 0
@@ -24707,6 +24866,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &889492859
 Transform:
   m_ObjectHideFlags: 0
@@ -25224,6 +25384,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &906586049
 Transform:
   m_ObjectHideFlags: 0
@@ -25358,6 +25519,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &915850495
 Transform:
   m_ObjectHideFlags: 0
@@ -25539,6 +25701,7 @@ MonoBehaviour:
   obstacle: {fileID: 81602072}
   obstacleType: 3
   mapPosition: {x: 0, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &929975752
 Transform:
   m_ObjectHideFlags: 0
@@ -25590,6 +25753,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &933215624
 Transform:
   m_ObjectHideFlags: 0
@@ -25640,6 +25804,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &933355971
 Transform:
   m_ObjectHideFlags: 0
@@ -25858,6 +26023,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &939880233
 Transform:
   m_ObjectHideFlags: 0
@@ -25908,6 +26074,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &941429014
 Transform:
   m_ObjectHideFlags: 0
@@ -26126,6 +26293,7 @@ MonoBehaviour:
   obstacle: {fileID: 1313127317}
   obstacleType: 2
   mapPosition: {x: 14, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &943546308
 Transform:
   m_ObjectHideFlags: 0
@@ -26177,6 +26345,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &948764025
 Transform:
   m_ObjectHideFlags: 0
@@ -26647,6 +26816,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &963956661
 Transform:
   m_ObjectHideFlags: 0
@@ -26865,6 +27035,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &976094386
 Transform:
   m_ObjectHideFlags: 0
@@ -27130,6 +27301,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &983329375
 Transform:
   m_ObjectHideFlags: 0
@@ -27180,6 +27352,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &984484318
 Transform:
   m_ObjectHideFlags: 0
@@ -27613,6 +27786,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &1002031593
 Transform:
   m_ObjectHideFlags: 0
@@ -27831,6 +28005,7 @@ MonoBehaviour:
   obstacle: {fileID: 233378532}
   obstacleType: 4
   mapPosition: {x: 21, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1009484934
 Transform:
   m_ObjectHideFlags: 0
@@ -28181,6 +28356,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &1023211261
 Transform:
   m_ObjectHideFlags: 0
@@ -28399,6 +28575,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1028568258
 Transform:
   m_ObjectHideFlags: 0
@@ -28533,6 +28710,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &1031863520
 Transform:
   m_ObjectHideFlags: 0
@@ -28630,6 +28808,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1033724700
 Transform:
   m_ObjectHideFlags: 0
@@ -28680,6 +28859,7 @@ MonoBehaviour:
   obstacle: {fileID: 542439793}
   obstacleType: 3
   mapPosition: {x: 0, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &1033725501
 Transform:
   m_ObjectHideFlags: 0
@@ -28983,6 +29163,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1035556490
 Transform:
   m_ObjectHideFlags: 0
@@ -29033,6 +29214,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1039510948
 Transform:
   m_ObjectHideFlags: 0
@@ -29083,6 +29265,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &1040462497
 Transform:
   m_ObjectHideFlags: 0
@@ -29563,6 +29746,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1064431020
 Transform:
   m_ObjectHideFlags: 0
@@ -29613,6 +29797,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1064965501
 Transform:
   m_ObjectHideFlags: 0
@@ -29663,6 +29848,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1068157720
 Transform:
   m_ObjectHideFlags: 0
@@ -29713,6 +29899,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &1071596698
 Transform:
   m_ObjectHideFlags: 0
@@ -29763,6 +29950,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1072864614
 Transform:
   m_ObjectHideFlags: 0
@@ -29860,6 +30048,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &1078983045
 Transform:
   m_ObjectHideFlags: 0
@@ -30377,6 +30566,7 @@ MonoBehaviour:
   obstacle: {fileID: 1549078145}
   obstacleType: 1
   mapPosition: {x: 20, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1090567743
 Transform:
   m_ObjectHideFlags: 0
@@ -30858,6 +31048,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1108043064
 Transform:
   m_ObjectHideFlags: 0
@@ -30908,6 +31099,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1108342704
 Transform:
   m_ObjectHideFlags: 0
@@ -31005,6 +31197,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1110992534
 Transform:
   m_ObjectHideFlags: 0
@@ -31223,6 +31416,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &1128444899
 Transform:
   m_ObjectHideFlags: 0
@@ -31273,6 +31467,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &1130594627
 Transform:
   m_ObjectHideFlags: 0
@@ -31407,6 +31602,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &1134925865
 Transform:
   m_ObjectHideFlags: 0
@@ -31541,6 +31737,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1138873692
 Transform:
   m_ObjectHideFlags: 0
@@ -31591,6 +31788,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &1143179569
 Transform:
   m_ObjectHideFlags: 0
@@ -31893,6 +32091,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1151555965
 Transform:
   m_ObjectHideFlags: 0
@@ -31943,6 +32142,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &1151938802
 Transform:
   m_ObjectHideFlags: 0
@@ -32124,6 +32324,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1154886119
 Transform:
   m_ObjectHideFlags: 0
@@ -32174,6 +32375,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1158707165
 Transform:
   m_ObjectHideFlags: 0
@@ -32224,6 +32426,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1166200436
 Transform:
   m_ObjectHideFlags: 0
@@ -32442,6 +32645,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1168013512
 Transform:
   m_ObjectHideFlags: 0
@@ -32492,6 +32696,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1170417133
 Transform:
   m_ObjectHideFlags: 0
@@ -32626,6 +32831,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1175901544
 Transform:
   m_ObjectHideFlags: 0
@@ -32804,9 +33010,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedBackground: {fileID: 263352300, guid: 6387bbf3f0370bc4386665a867ecd1fa, type: 3}
   visual: {fileID: 609004685}
-  obstacle: {fileID: 750504332}
+  obstacle: {fileID: 0}
   obstacleType: 6
   mapPosition: {x: 5, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &1180071289
 Transform:
   m_ObjectHideFlags: 0
@@ -33026,6 +33233,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &1187427804
 Transform:
   m_ObjectHideFlags: 0
@@ -33076,6 +33284,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1188059298
 Transform:
   m_ObjectHideFlags: 0
@@ -33126,6 +33335,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &1188958512
 Transform:
   m_ObjectHideFlags: 0
@@ -33344,6 +33554,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &1204079437
 Transform:
   m_ObjectHideFlags: 0
@@ -33394,6 +33605,7 @@ MonoBehaviour:
   obstacle: {fileID: 222795326}
   obstacleType: 1
   mapPosition: {x: 16, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1205761320
 Transform:
   m_ObjectHideFlags: 0
@@ -33445,6 +33657,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1206199479
 Transform:
   m_ObjectHideFlags: 0
@@ -33747,6 +33960,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1209041963
 Transform:
   m_ObjectHideFlags: 0
@@ -33797,6 +34011,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &1209493851
 Transform:
   m_ObjectHideFlags: 0
@@ -33847,6 +34062,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1209663171
 Transform:
   m_ObjectHideFlags: 0
@@ -33897,6 +34113,7 @@ MonoBehaviour:
   obstacle: {fileID: 354436839}
   obstacleType: 2
   mapPosition: {x: 17, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1211361595
 Transform:
   m_ObjectHideFlags: 0
@@ -34032,6 +34249,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &1214944146
 Transform:
   m_ObjectHideFlags: 0
@@ -34082,6 +34300,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &1220315679
 Transform:
   m_ObjectHideFlags: 0
@@ -34179,6 +34398,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &1235837471
 Transform:
   m_ObjectHideFlags: 0
@@ -34313,6 +34533,7 @@ MonoBehaviour:
   obstacle: {fileID: 1087963226}
   obstacleType: 2
   mapPosition: {x: 20, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1237380525
 Transform:
   m_ObjectHideFlags: 0
@@ -34364,6 +34585,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1237881387
 Transform:
   m_ObjectHideFlags: 0
@@ -34498,6 +34720,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1241224514
 Transform:
   m_ObjectHideFlags: 0
@@ -34548,6 +34771,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1242583650
 Transform:
   m_ObjectHideFlags: 0
@@ -34682,6 +34906,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1243582583
 Transform:
   m_ObjectHideFlags: 0
@@ -35068,6 +35293,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &1260793528
 Transform:
   m_ObjectHideFlags: 0
@@ -35370,6 +35596,7 @@ MonoBehaviour:
   obstacle: {fileID: 1498298840}
   obstacleType: 8
   mapPosition: {x: 0, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1269063550
 Transform:
   m_ObjectHideFlags: 0
@@ -35552,6 +35779,7 @@ MonoBehaviour:
   obstacle: {fileID: 818305539}
   obstacleType: 2
   mapPosition: {x: 15, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1280372312
 Transform:
   m_ObjectHideFlags: 0
@@ -36023,6 +36251,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1292772525
 Transform:
   m_ObjectHideFlags: 0
@@ -36120,6 +36349,7 @@ MonoBehaviour:
   obstacle: {fileID: 620763011}
   obstacleType: 2
   mapPosition: {x: 7, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1304396813
 Transform:
   m_ObjectHideFlags: 0
@@ -36171,6 +36401,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1304921809
 Transform:
   m_ObjectHideFlags: 0
@@ -36221,6 +36452,7 @@ MonoBehaviour:
   obstacle: {fileID: 115225743}
   obstacleType: 3
   mapPosition: {x: 0, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1306876467
 Transform:
   m_ObjectHideFlags: 0
@@ -36403,6 +36635,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1320087301
 Transform:
   m_ObjectHideFlags: 0
@@ -36537,6 +36770,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &1322455985
 Transform:
   m_ObjectHideFlags: 0
@@ -36587,6 +36821,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1326516090
 Transform:
   m_ObjectHideFlags: 0
@@ -36637,6 +36872,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1330571291
 Transform:
   m_ObjectHideFlags: 0
@@ -36939,6 +37175,7 @@ MonoBehaviour:
   obstacle: {fileID: 1406065483}
   obstacleType: 2
   mapPosition: {x: 13, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1339040641
 Transform:
   m_ObjectHideFlags: 0
@@ -37242,6 +37479,7 @@ MonoBehaviour:
   obstacle: {fileID: 1908820209}
   obstacleType: 1
   mapPosition: {x: 6, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1350409184
 Transform:
   m_ObjectHideFlags: 0
@@ -37293,6 +37531,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &1355272731
 Transform:
   m_ObjectHideFlags: 0
@@ -37511,6 +37750,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1358224504
 Transform:
   m_ObjectHideFlags: 0
@@ -37645,6 +37885,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1362991562
 Transform:
   m_ObjectHideFlags: 0
@@ -37947,6 +38188,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &1374689404
 Transform:
   m_ObjectHideFlags: 0
@@ -38165,6 +38407,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &1388634627
 Transform:
   m_ObjectHideFlags: 0
@@ -38682,6 +38925,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1406954186
 Transform:
   m_ObjectHideFlags: 0
@@ -38732,6 +38976,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &1415272512
 Transform:
   m_ObjectHideFlags: 0
@@ -38950,6 +39195,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &1421067821
 Transform:
   m_ObjectHideFlags: 0
@@ -39168,6 +39414,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1426262109
 Transform:
   m_ObjectHideFlags: 0
@@ -39386,6 +39633,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1429916206
 Transform:
   m_ObjectHideFlags: 0
@@ -39436,6 +39684,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &1431248296
 Transform:
   m_ObjectHideFlags: 0
@@ -39486,6 +39735,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1433098481
 Transform:
   m_ObjectHideFlags: 0
@@ -39536,6 +39786,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1438022026
 Transform:
   m_ObjectHideFlags: 0
@@ -39670,6 +39921,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1440126855
 Transform:
   m_ObjectHideFlags: 0
@@ -39720,6 +39972,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &1445288652
 Transform:
   m_ObjectHideFlags: 0
@@ -39770,6 +40023,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1449108566
 Transform:
   m_ObjectHideFlags: 0
@@ -39820,6 +40074,7 @@ MonoBehaviour:
   obstacle: {fileID: 587772600}
   obstacleType: 4
   mapPosition: {x: 21, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1450225824
 Transform:
   m_ObjectHideFlags: 0
@@ -40170,6 +40425,7 @@ MonoBehaviour:
   obstacle: {fileID: 981833602}
   obstacleType: 10
   mapPosition: {x: 21, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1459010715
 Transform:
   m_ObjectHideFlags: 0
@@ -40305,6 +40561,7 @@ MonoBehaviour:
   obstacle: {fileID: 2100867335}
   obstacleType: 3
   mapPosition: {x: 0, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1465094045
 Transform:
   m_ObjectHideFlags: 0
@@ -40940,6 +41197,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1481877740
 Transform:
   m_ObjectHideFlags: 0
@@ -40990,6 +41248,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1483383374
 Transform:
   m_ObjectHideFlags: 0
@@ -41208,6 +41467,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &1496574556
 Transform:
   m_ObjectHideFlags: 0
@@ -41473,6 +41733,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1504120485
 Transform:
   m_ObjectHideFlags: 0
@@ -41607,6 +41868,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &1511046036
 Transform:
   m_ObjectHideFlags: 0
@@ -41872,6 +42134,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &1520495106
 Transform:
   m_ObjectHideFlags: 0
@@ -42006,6 +42269,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1522163415
 Transform:
   m_ObjectHideFlags: 0
@@ -42355,6 +42619,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &1533617269
 Transform:
   m_ObjectHideFlags: 0
@@ -42489,6 +42754,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1542216549
 Transform:
   m_ObjectHideFlags: 0
@@ -42754,6 +43020,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1552055856
 Transform:
   m_ObjectHideFlags: 0
@@ -42804,6 +43071,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &1555625651
 Transform:
   m_ObjectHideFlags: 0
@@ -42854,6 +43122,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &1557471716
 Transform:
   m_ObjectHideFlags: 0
@@ -42988,6 +43257,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &1558790851
 Transform:
   m_ObjectHideFlags: 0
@@ -43038,6 +43308,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &1559080208
 Transform:
   m_ObjectHideFlags: 0
@@ -43088,6 +43359,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1559088167
 Transform:
   m_ObjectHideFlags: 0
@@ -43138,6 +43410,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &1560682575
 Transform:
   m_ObjectHideFlags: 0
@@ -43272,6 +43545,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1566604776
 Transform:
   m_ObjectHideFlags: 0
@@ -43322,6 +43596,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &1567586080
 Transform:
   m_ObjectHideFlags: 0
@@ -43372,6 +43647,7 @@ MonoBehaviour:
   obstacle: {fileID: 1524322461}
   obstacleType: 1
   mapPosition: {x: 3, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1569264754
 Transform:
   m_ObjectHideFlags: 0
@@ -43638,6 +43914,7 @@ MonoBehaviour:
   obstacle: {fileID: 1074119331}
   obstacleType: 2
   mapPosition: {x: 5, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1587124198
 Transform:
   m_ObjectHideFlags: 0
@@ -43857,6 +44134,7 @@ MonoBehaviour:
   obstacle: {fileID: 512790371}
   obstacleType: 2
   mapPosition: {x: 9, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1590534410
 Transform:
   m_ObjectHideFlags: 0
@@ -44076,6 +44354,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1594678826
 Transform:
   m_ObjectHideFlags: 0
@@ -44388,6 +44667,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &1603228721
 Transform:
   m_ObjectHideFlags: 0
@@ -44569,6 +44849,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &1614116326
 Transform:
   m_ObjectHideFlags: 0
@@ -44619,6 +44900,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1618762677
 Transform:
   m_ObjectHideFlags: 0
@@ -44753,6 +45035,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &1620407763
 Transform:
   m_ObjectHideFlags: 0
@@ -45055,6 +45338,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1627062685
 Transform:
   m_ObjectHideFlags: 0
@@ -45105,6 +45389,7 @@ MonoBehaviour:
   obstacle: {fileID: 1875838162}
   obstacleType: 4
   mapPosition: {x: 21, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &1628452286
 Transform:
   m_ObjectHideFlags: 0
@@ -45324,6 +45609,7 @@ MonoBehaviour:
   obstacle: {fileID: 2142508697}
   obstacleType: 4
   mapPosition: {x: 21, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &1634392947
 Transform:
   m_ObjectHideFlags: 0
@@ -45795,6 +46081,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1657964492
 Transform:
   m_ObjectHideFlags: 0
@@ -45845,6 +46132,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &1658039347
 Transform:
   m_ObjectHideFlags: 0
@@ -45895,6 +46183,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1660693163
 Transform:
   m_ObjectHideFlags: 0
@@ -45945,6 +46234,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1665425466
 Transform:
   m_ObjectHideFlags: 0
@@ -46079,6 +46369,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &1668075593
 Transform:
   m_ObjectHideFlags: 0
@@ -46213,6 +46504,7 @@ MonoBehaviour:
   obstacle: {fileID: 988310856}
   obstacleType: 4
   mapPosition: {x: 21, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &1672305566
 Transform:
   m_ObjectHideFlags: 0
@@ -46348,6 +46640,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1672770958
 Transform:
   m_ObjectHideFlags: 0
@@ -46398,6 +46691,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1673588912
 Transform:
   m_ObjectHideFlags: 0
@@ -46448,6 +46742,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &1674992266
 Transform:
   m_ObjectHideFlags: 0
@@ -46498,6 +46793,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &1675297329
 Transform:
   m_ObjectHideFlags: 0
@@ -46632,6 +46928,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &1677754758
 Transform:
   m_ObjectHideFlags: 0
@@ -46850,6 +47147,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &1685418918
 Transform:
   m_ObjectHideFlags: 0
@@ -46900,6 +47198,7 @@ MonoBehaviour:
   obstacle: {fileID: 1041393177}
   obstacleType: 1
   mapPosition: {x: 11, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1686334992
 Transform:
   m_ObjectHideFlags: 0
@@ -46951,6 +47250,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1686375354
 Transform:
   m_ObjectHideFlags: 0
@@ -47589,6 +47889,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &1709995602
 Transform:
   m_ObjectHideFlags: 0
@@ -47639,6 +47940,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &1712351999
 Transform:
   m_ObjectHideFlags: 0
@@ -47689,6 +47991,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1712360798
 Transform:
   m_ObjectHideFlags: 0
@@ -47823,6 +48126,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1721723699
 Transform:
   m_ObjectHideFlags: 0
@@ -48041,6 +48345,7 @@ MonoBehaviour:
   obstacle: {fileID: 1107787047}
   obstacleType: 2
   mapPosition: {x: 10, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1728520427
 Transform:
   m_ObjectHideFlags: 0
@@ -48176,6 +48481,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1731435173
 Transform:
   m_ObjectHideFlags: 0
@@ -48310,6 +48616,7 @@ MonoBehaviour:
   obstacle: {fileID: 1015233793}
   obstacleType: 1
   mapPosition: {x: 8, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1735155695
 Transform:
   m_ObjectHideFlags: 0
@@ -48445,6 +48752,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1740076467
 Transform:
   m_ObjectHideFlags: 0
@@ -48962,6 +49270,7 @@ MonoBehaviour:
   obstacle: {fileID: 732383387}
   obstacleType: 3
   mapPosition: {x: 0, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1760361623
 Transform:
   m_ObjectHideFlags: 0
@@ -49013,6 +49322,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1761487652
 Transform:
   m_ObjectHideFlags: 0
@@ -49063,6 +49373,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1763491115
 Transform:
   m_ObjectHideFlags: 0
@@ -49113,6 +49424,7 @@ MonoBehaviour:
   obstacle: {fileID: 1876669687}
   obstacleType: 4
   mapPosition: {x: 21, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1764693020
 Transform:
   m_ObjectHideFlags: 0
@@ -49379,6 +49691,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1773412568
 Transform:
   m_ObjectHideFlags: 0
@@ -49513,6 +49826,7 @@ MonoBehaviour:
   obstacle: {fileID: 322947306}
   obstacleType: 1
   mapPosition: {x: 5, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1773901250
 Transform:
   m_ObjectHideFlags: 0
@@ -49947,6 +50261,7 @@ MonoBehaviour:
   obstacle: {fileID: 631134470}
   obstacleType: 1
   mapPosition: {x: 9, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1795294998
 Transform:
   m_ObjectHideFlags: 0
@@ -50082,6 +50397,7 @@ MonoBehaviour:
   obstacle: {fileID: 1517168803}
   obstacleType: 4
   mapPosition: {x: 21, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1802003149
 Transform:
   m_ObjectHideFlags: 0
@@ -50217,6 +50533,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &1804593679
 Transform:
   m_ObjectHideFlags: 0
@@ -50351,6 +50668,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1808781449
 Transform:
   m_ObjectHideFlags: 0
@@ -50401,6 +50719,7 @@ MonoBehaviour:
   obstacle: {fileID: 754397644}
   obstacleType: 3
   mapPosition: {x: 0, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1810673035
 Transform:
   m_ObjectHideFlags: 0
@@ -50452,6 +50771,7 @@ MonoBehaviour:
   obstacle: {fileID: 917271456}
   obstacleType: 1
   mapPosition: {x: 12, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1811402868
 Transform:
   m_ObjectHideFlags: 0
@@ -50671,6 +50991,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &1819004937
 Transform:
   m_ObjectHideFlags: 0
@@ -50721,6 +51042,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &1819412266
 Transform:
   m_ObjectHideFlags: 0
@@ -51191,6 +51513,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &1848122801
 Transform:
   m_ObjectHideFlags: 0
@@ -51241,6 +51564,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 17, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &1848649273
 Transform:
   m_ObjectHideFlags: 0
@@ -51422,6 +51746,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1853595024
 Transform:
   m_ObjectHideFlags: 0
@@ -51556,6 +51881,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1857166600
 Transform:
   m_ObjectHideFlags: 0
@@ -51606,6 +51932,7 @@ MonoBehaviour:
   obstacle: {fileID: 1888076053}
   obstacleType: 4
   mapPosition: {x: 21, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &1859098555
 Transform:
   m_ObjectHideFlags: 0
@@ -52201,6 +52528,8 @@ MonoBehaviour:
   - {fileID: 170156548}
   EntrancePosition: {x: 5, y: 5}
   ExitPosition: {x: 12, y: 19}
+  primaryColor: {r: 0, g: 0, b: 0, a: 0}
+  secondaryColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!4 &1864401333
 Transform:
   m_ObjectHideFlags: 0
@@ -52624,6 +52953,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &1864797858
 Transform:
   m_ObjectHideFlags: 0
@@ -53178,6 +53508,7 @@ MonoBehaviour:
   obstacle: {fileID: 2088927480}
   obstacleType: 1
   mapPosition: {x: 1, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1875737683
 Transform:
   m_ObjectHideFlags: 0
@@ -53491,6 +53822,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1882939413
 Transform:
   m_ObjectHideFlags: 0
@@ -53756,6 +54088,7 @@ MonoBehaviour:
   obstacle: {fileID: 1179383033}
   obstacleType: 3
   mapPosition: {x: 0, y: 13}
+  animator: {fileID: 0}
 --- !u!4 &1889235286
 Transform:
   m_ObjectHideFlags: 0
@@ -54190,6 +54523,7 @@ MonoBehaviour:
   obstacle: {fileID: 127978600}
   obstacleType: 7
   mapPosition: {x: 0, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1909192896
 Transform:
   m_ObjectHideFlags: 0
@@ -54409,6 +54743,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &1912727871
 Transform:
   m_ObjectHideFlags: 0
@@ -54459,6 +54794,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1914834664
 Transform:
   m_ObjectHideFlags: 0
@@ -54509,6 +54845,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &1915265319
 Transform:
   m_ObjectHideFlags: 0
@@ -54559,6 +54896,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1915472380
 Transform:
   m_ObjectHideFlags: 0
@@ -54693,6 +55031,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &1922094428
 Transform:
   m_ObjectHideFlags: 0
@@ -54874,6 +55213,7 @@ MonoBehaviour:
   obstacle: {fileID: 1597215152}
   obstacleType: 2
   mapPosition: {x: 16, y: 0}
+  animator: {fileID: 0}
 --- !u!4 &1933247269
 Transform:
   m_ObjectHideFlags: 0
@@ -54925,6 +55265,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &1935203080
 Transform:
   m_ObjectHideFlags: 0
@@ -55358,6 +55699,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 8, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1944126437
 Transform:
   m_ObjectHideFlags: 0
@@ -55408,6 +55750,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &1950170497
 Transform:
   m_ObjectHideFlags: 0
@@ -55626,6 +55969,7 @@ MonoBehaviour:
   obstacle: {fileID: 1450519222}
   obstacleType: 3
   mapPosition: {x: 0, y: 4}
+  animator: {fileID: 0}
 --- !u!4 &1953079026
 Transform:
   m_ObjectHideFlags: 0
@@ -55677,6 +56021,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &1953661865
 Transform:
   m_ObjectHideFlags: 0
@@ -55811,6 +56156,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &1959008566
 Transform:
   m_ObjectHideFlags: 0
@@ -55861,6 +56207,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1959018299
 Transform:
   m_ObjectHideFlags: 0
@@ -55911,6 +56258,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &1961651669
 Transform:
   m_ObjectHideFlags: 0
@@ -56045,6 +56393,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &1966530305
 Transform:
   m_ObjectHideFlags: 0
@@ -56095,6 +56444,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &1966784836
 Transform:
   m_ObjectHideFlags: 0
@@ -56229,6 +56579,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 18, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1971341711
 Transform:
   m_ObjectHideFlags: 0
@@ -56279,6 +56630,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &1972880650
 Transform:
   m_ObjectHideFlags: 0
@@ -56329,6 +56681,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1973432869
 Transform:
   m_ObjectHideFlags: 0
@@ -56547,6 +56900,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 20, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &1978005110
 Transform:
   m_ObjectHideFlags: 0
@@ -56681,6 +57035,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &1980449769
 Transform:
   m_ObjectHideFlags: 0
@@ -56778,6 +57133,7 @@ MonoBehaviour:
   obstacle: {fileID: 135157892}
   obstacleType: 1
   mapPosition: {x: 14, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &1985063142
 Transform:
   m_ObjectHideFlags: 0
@@ -57249,6 +57605,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 3}
+  animator: {fileID: 0}
 --- !u!4 &1997690864
 Transform:
   m_ObjectHideFlags: 0
@@ -57467,6 +57824,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 9, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &2001541849
 Transform:
   m_ObjectHideFlags: 0
@@ -57601,6 +57959,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 1, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &2005918466
 Transform:
   m_ObjectHideFlags: 0
@@ -57735,6 +58094,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 16, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &2011148675
 Transform:
   m_ObjectHideFlags: 0
@@ -57869,6 +58229,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &2025636418
 Transform:
   m_ObjectHideFlags: 0
@@ -58087,6 +58448,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 2}
+  animator: {fileID: 0}
 --- !u!4 &2031105618
 Transform:
   m_ObjectHideFlags: 0
@@ -58315,6 +58677,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &2048941122
 Transform:
   m_ObjectHideFlags: 0
@@ -58449,6 +58812,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 11, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &2053826849
 Transform:
   m_ObjectHideFlags: 0
@@ -58667,6 +59031,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 6, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &2055936383
 Transform:
   m_ObjectHideFlags: 0
@@ -58717,6 +59082,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &2055942664
 Transform:
   m_ObjectHideFlags: 0
@@ -58767,6 +59133,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 13, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &2060602860
 Transform:
   m_ObjectHideFlags: 0
@@ -58817,6 +59184,7 @@ MonoBehaviour:
   obstacle: {fileID: 1768863628}
   obstacleType: 4
   mapPosition: {x: 21, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &2063558433
 Transform:
   m_ObjectHideFlags: 0
@@ -58868,6 +59236,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 15, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &2063827876
 Transform:
   m_ObjectHideFlags: 0
@@ -59170,6 +59539,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 14, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &2073501434
 Transform:
   m_ObjectHideFlags: 0
@@ -59304,6 +59674,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 4, y: 11}
+  animator: {fileID: 0}
 --- !u!4 &2075042329
 Transform:
   m_ObjectHideFlags: 0
@@ -59522,6 +59893,7 @@ MonoBehaviour:
   obstacle: {fileID: 729500645}
   obstacleType: 1
   mapPosition: {x: 17, y: 16}
+  animator: {fileID: 0}
 --- !u!4 &2081609266
 Transform:
   m_ObjectHideFlags: 0
@@ -60040,6 +60412,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 10, y: 8}
+  animator: {fileID: 0}
 --- !u!4 &2092787013
 Transform:
   m_ObjectHideFlags: 0
@@ -60090,6 +60463,7 @@ MonoBehaviour:
   obstacle: {fileID: 633845751}
   obstacleType: 4
   mapPosition: {x: 21, y: 6}
+  animator: {fileID: 0}
 --- !u!4 &2095533490
 Transform:
   m_ObjectHideFlags: 0
@@ -60141,6 +60515,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 5}
+  animator: {fileID: 0}
 --- !u!4 &2100394567
 Transform:
   m_ObjectHideFlags: 0
@@ -60406,6 +60781,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 3, y: 14}
+  animator: {fileID: 0}
 --- !u!4 &2114428543
 Transform:
   m_ObjectHideFlags: 0
@@ -60456,6 +60832,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 19, y: 1}
+  animator: {fileID: 0}
 --- !u!4 &2116145950
 Transform:
   m_ObjectHideFlags: 0
@@ -60506,6 +60883,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 9}
+  animator: {fileID: 0}
 --- !u!4 &2117173713
 Transform:
   m_ObjectHideFlags: 0
@@ -60687,6 +61065,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 12, y: 12}
+  animator: {fileID: 0}
 --- !u!4 &2122702043
 Transform:
   m_ObjectHideFlags: 0
@@ -60821,6 +61200,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 7, y: 15}
+  animator: {fileID: 0}
 --- !u!4 &2130649548
 Transform:
   m_ObjectHideFlags: 0
@@ -60871,6 +61251,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 5, y: 10}
+  animator: {fileID: 0}
 --- !u!4 &2132711842
 Transform:
   m_ObjectHideFlags: 0
@@ -61005,6 +61386,7 @@ MonoBehaviour:
   obstacle: {fileID: 0}
   obstacleType: 0
   mapPosition: {x: 2, y: 7}
+  animator: {fileID: 0}
 --- !u!4 &2138296408
 Transform:
   m_ObjectHideFlags: 0
