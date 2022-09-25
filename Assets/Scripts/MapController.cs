@@ -29,7 +29,7 @@ public class MapController : MonoBehaviour {
     }
 
     private void Start() {
-
+        AudioManager.Instance.Play("BackgroundLoop");
     }
 
     [ContextMenu("Generate Map")]
