@@ -64,7 +64,7 @@ MonoBehaviour:
   OnTurnPassed:
     m_PersistentCalls:
       m_Calls: []
-  animator: {fileID: 0}
+  animator: {fileID: 2000357278043833214}
 --- !u!95 &2000357278043833214
 Animator:
   serializedVersion: 4

@@ -15,7 +15,9 @@ public class GameManager : MonoBehaviour
             Instance = this;
         }
     }
-
+    private void Start() {
+        AudioManager.Instance.Play("Theme");
+    }
     public void Reset() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

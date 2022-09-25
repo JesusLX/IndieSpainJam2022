@@ -64,6 +64,8 @@ public class Player : MonoBehaviour, ICharacter {
     }
 
     public void GetDamage(int damage) {
+        AudioManager.Instance.Play("Damaged", true, true);
+
         HP -= damage;
         if (HP <= 0) {
             TryDie();
@@ -108,6 +110,8 @@ public class Player : MonoBehaviour, ICharacter {
         tmpCell = MapController.Instance.GetCell(searchPosition);
         if (tmpCell != null) {
             Walk(tmpCell);
+            AudioManager.Instance.Play("Walk", true, true);
+
         }
 
         return canWalk;
@@ -115,7 +119,6 @@ public class Player : MonoBehaviour, ICharacter {
     public bool Walk(Cell nextCell) {
         bool canWalk = false;
         if (canWalk = ((nextCell.obstacle == null || nextCell.obstacle.IsWalkable()) && nextCell.OverMeCharacter == null)) {
-            Debug.Log(nextCell);
             pointer.position = nextCell.transform.position;
             SetCurrentCell(nextCell);
             OnActionDone();
@@ -166,6 +169,8 @@ public class Player : MonoBehaviour, ICharacter {
                 }
             }
         }
+        AudioManager.Instance.Play("SwordAttack", true, true);
+
         OnActionDone();
     }
 
@@ -180,6 +185,8 @@ public class Player : MonoBehaviour, ICharacter {
     }
 
     public void AddItem(IItem.Type itemType) {
+        AudioManager.Instance.Play("PickUp", true, true);
+
         if (inventory.ContainsKey(itemType)) {
             inventory[itemType]++;
         } else {

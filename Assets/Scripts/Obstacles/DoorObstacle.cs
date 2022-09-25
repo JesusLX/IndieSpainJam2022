@@ -29,6 +29,7 @@ public class DoorObstacle : MonoBehaviour, IObstacle {
 
     public void DoAction() {
         if (FindObjectOfType<Player>().SubstractItem(this.activator)) {
+            AudioManager.Instance.Play("DoorOpen");
             OnActivate(true);
             FindObjectOfType<FadeController>().FadeOut();
         }

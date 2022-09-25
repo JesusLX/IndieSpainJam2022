@@ -43,7 +43,7 @@ public class AudioManager : MonoBehaviour {
         if (randomPitch) {
             s.pitch = UnityEngine.Random.Range(0.5f, 3);
             s.source.pitch = s.pitch;
-        }
+        } 
         if (onsehot)
             s.source.PlayOneShot(s.clip);
         else

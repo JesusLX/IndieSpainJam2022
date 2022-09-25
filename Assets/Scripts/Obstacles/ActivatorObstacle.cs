@@ -25,6 +25,8 @@ public class ActivatorObstacle : MonoBehaviour ,IObstacle {
     }
     public  void DoAction() {
         Debug.Log("Activando");
+        AudioManager.Instance.Play("ChestOpen", true, true);
+
         activated = !activated;
         if(activated) {
             DeactiveVisual.SetActive(false);

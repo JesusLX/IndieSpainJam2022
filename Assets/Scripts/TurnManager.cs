@@ -43,7 +43,8 @@ public class TurnManager : MonoBehaviour
         } else {
             actionsPerTurn[character]++;
         }
-        actionsThisTurn++;
+        if(typeOfTheTurn == character)
+            actionsThisTurn++;
     }
 
     public void RemoveToTurns(ICharacter character) {

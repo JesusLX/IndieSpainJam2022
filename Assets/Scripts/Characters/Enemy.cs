@@ -37,13 +37,13 @@ public class Enemy : MonoBehaviour, ICharacter {
         }
     }
     public void Die() {
+        CurrentCell.OverMeCharacter = null;
         TurnManager.Instance.RemoveToTurns(this);
         Destroy(this.gameObject.transform.parent.gameObject);
     }
 
     public void OnTurnChanged() {
         if (TurnManager.Instance.typeOfTheTurn == MyType) {
-            Debug.Log("Turno enemigo");
             curringAttacks.RemoveAll(c => c == null);
            
             TryDoAction();
