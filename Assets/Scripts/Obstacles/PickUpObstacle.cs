@@ -9,10 +9,11 @@ public class PickUpObstacle : MonoBehaviour ,IObstacle {
     public bool activated;
     public bool oneTimeActivable;    
     public bool hasAction = true;
-    public UnityEvent<bool>OnActivationChanged;
-
-    public IObstacle.Type type;
     public bool isWalkable;
+    public bool activatedWalkable;
+    public bool deactivatedWalkable;
+    public IObstacle.Type type;
+    public IItem.Type itemType;
 
     private void Start() {
         if (activated) {
@@ -29,14 +30,17 @@ public class PickUpObstacle : MonoBehaviour ,IObstacle {
         if(activated) {
             DeactiveVisual.SetActive(false);
             ActiveVisual.SetActive(true);
+            SetIsWalkable(activatedWalkable);
         } else {
             ActiveVisual.SetActive(false);
             DeactiveVisual.SetActive(true);
+            SetIsWalkable(deactivatedWalkable);
         }
-        OnActivationChanged?.Invoke(activated);
         if (this.oneTimeActivable) {
             this.hasAction = false;
         }
+
+        FindObjectOfType<Player>().AddItem(itemType);
     }
 
     public  IObstacle.Type GetObstacleType() {

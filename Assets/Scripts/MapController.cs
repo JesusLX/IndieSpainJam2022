@@ -50,13 +50,12 @@ public class MapController : MonoBehaviour {
                 this.TrySetObstacle(h == 0, "Botton", map[h, w], IObstacle.Type.BottomWall);
                 this.TrySetObstacle(w == 0, "Left", map[h, w], IObstacle.Type.LeftWall);
                 this.TrySetObstacle(w == width - 1, "Rigth", map[h, w], IObstacle.Type.RigthWall);
-                this.TrySetObstacle(EntrancePosition.y == h && EntrancePosition.x == w, "Entrance", map[h, w], IObstacle.Type.Entrance);
-                this.TrySetObstacle(ExitPosition.y == h && ExitPosition.x == w, "Exit", map[h, w], IObstacle.Type.Exit);
                 this.TrySetObstacle(h == height - 1 && w == 0, "UpperLeft", map[h, w], IObstacle.Type.UpperLeftWallCorner);
                 this.TrySetObstacle(h == height - 1 && w == width - 1, "UpperRight", map[h, w], IObstacle.Type.UpperRigthWallCorner);
                 this.TrySetObstacle(h == 0 && w == 0, "BottomLeft", map[h, w], IObstacle.Type.BottomLeftWallCorner);
                 this.TrySetObstacle(h == 0 && w == width - 1, "BottomRight", map[h, w], IObstacle.Type.BottomRigthWallCorner);
-
+                this.TrySetObstacle(EntrancePosition.y == h && EntrancePosition.x == w, "Entrance", map[h, w], IObstacle.Type.Entrance);
+                this.TrySetObstacle(ExitPosition.y == h && ExitPosition.x == w, "Exit", map[h, w], IObstacle.Type.Exit);
                 map[h, w].init(false);
                 publicMap.Add(map[h, w]);
             }

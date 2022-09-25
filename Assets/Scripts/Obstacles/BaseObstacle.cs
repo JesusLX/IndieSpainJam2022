@@ -14,11 +14,6 @@ public class BaseObstacle : MonoBehaviour, IObstacle
 
     private void Start() {
        childClass = GetComponents<IObstacle>().ToList().Find(o => o != this);
-        if (childClass != null) {
-            Debug.Log(childClass);
-        }else {
-            Debug.Log("Sin hijo " + gameObject.name);
-        }
     }
 
     public virtual void DoAction() {

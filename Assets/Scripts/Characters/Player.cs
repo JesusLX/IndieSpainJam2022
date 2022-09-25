@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour, ICharacter {
     public Cell _currentCell;
@@ -12,6 +14,11 @@ public class Player : MonoBehaviour, ICharacter {
     public int _hp = 1;
     public ICharacter.CharacterType _myType = ICharacter.CharacterType.Player;
     public int turns = 100;
+    public Dictionary<IItem.Type, int> inventory;
+
+    public UnityEvent<IItem.Type> OnItemAdded;
+    public UnityEvent<IItem.Type> OnItemRemoved;
+    public UnityEvent OnTurnPassed;
 
 
     public Cell CurrentCell { get => _currentCell; }
@@ -20,6 +27,7 @@ public class Player : MonoBehaviour, ICharacter {
     public int HP { get => _hp; set => _hp = value; }
 
     void Start() {
+        inventory = new Dictionary<IItem.Type, int>();
         StartCoroutine(FollowPointer());
         DoInitPosition();
         TurnManager.Instance.AddToTurns(this);
@@ -110,13 +118,13 @@ public class Player : MonoBehaviour, ICharacter {
     public void OnActionDone() {
         turns--;
         actionCDRemaining = actionCD;
+        OnTurnPassed?.Invoke();
         TurnManager.Instance.EndTurn(MyType);
     }
 
     [ContextMenu("DoInitPosition")]
     public void DoInitPosition() {
         Vector2Int entrancePosition = MapController.Instance.EntrancePosition;
-        Debug.Log(entrancePosition);
         SetCurrentCell(MapController.Instance.GetCell(new Vector2Int(entrancePosition.x, entrancePosition.y)));
         //transform.position = currentCell.transform.position;
     }
@@ -161,5 +169,31 @@ public class Player : MonoBehaviour, ICharacter {
         CurrentCell.OverMeCharacter = this;
         pointer.position = CurrentCell.transform.position;
 
+    }
+
+    public void AddItem(IItem.Type itemType) {
+        if (inventory.ContainsKey(itemType)) {
+            inventory[itemType]++;
+        } else {
+            inventory[itemType] = 1;
+        }
+        OnItemAdded?.Invoke(itemType);
+    }
+    public bool SubstractItem(IItem.Type itemType) {
+        if (inventory.ContainsKey(itemType)) {
+            inventory[itemType]--;
+            OnItemRemoved?.Invoke(itemType);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public int GetItemCount(IItem.Type itemType) {
+        if (inventory.ContainsKey(itemType)) {
+            return inventory[itemType];
+        } else {
+           return 0;
+        }
     }
 }

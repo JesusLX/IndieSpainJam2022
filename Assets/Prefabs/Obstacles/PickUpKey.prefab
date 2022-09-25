@@ -177,8 +177,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 392921021809903625}
-  - component: {fileID: 38451585840695876}
   - component: {fileID: 9006623361595078298}
+  - component: {fileID: 642474254992190254}
   m_Layer: 0
   m_Name: PickUpKey
   m_TagString: Untagged
@@ -203,28 +203,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &38451585840695876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8057307891277446673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 540815fa81bb3a84e96b14cfb2751d87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActiveVisual: {fileID: 6515826014928777637}
-  DeactiveVisual: {fileID: 166515759639633330}
-  activated: 1
-  oneTimeActivable: 0
-  hasAction: 1
-  OnActivationChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  type: 13
-  isWalkable: 0
 --- !u!114 &9006623361595078298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,5 +215,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9338af2e6476f06408fdc8448845997b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 13
+  type: 15
   isWalkable: 0
+--- !u!114 &642474254992190254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057307891277446673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5381db727942206479c615b0feb92284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActiveVisual: {fileID: 6515826014928777637}
+  DeactiveVisual: {fileID: 166515759639633330}
+  activated: 1
+  oneTimeActivable: 1
+  hasAction: 1
+  isWalkable: 0
+  activatedWalkable: 0
+  deactivatedWalkable: 1
+  type: 15
+  itemType: 0
