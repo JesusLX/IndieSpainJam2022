@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour, ICharacter {
     }
     public void Die() {
         TurnManager.Instance.RemoveToTurns(this);
-        Destroy(this.gameObject.transform.parent);
+        Destroy(this.gameObject.transform.parent.gameObject);
     }
 
     public void OnTurnChanged() {
