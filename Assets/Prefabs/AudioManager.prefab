@@ -49,7 +49,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: d4a829efa253e3f4c8b765c9b3f19587, type: 3}
     volume: 0.3
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - name: Damaged
     clip: {fileID: 8300000, guid: 8155279930d3278459c27b9cde13e2f5, type: 3}
